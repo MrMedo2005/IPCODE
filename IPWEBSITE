@@ -1,6 +1,3 @@
-#Mohamed Alaa, [١٤/٠٨/٢٢ ١١:٠٢ م]
-#pylint:disable=C0303
-#pylint:disable=E0602
 import socket 
 hostName= socket.gethostname()
 ipAdd=socket.gethostbyname(hostName)
@@ -13,7 +10,4 @@ if e =='PHONE 14 PRO' :
     print ('    GOOD')
 else :
     print ('     ERROR')
-#print ([5,10])
-#BY : 'MUHAMMAD ALAA 
-# THE CODE IT IS INTERNATIONAL...!
-#$slider-bg-color
+
